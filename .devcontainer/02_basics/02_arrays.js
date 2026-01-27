@@ -18,3 +18,17 @@ const another_array = [1,2,3,,[4,5,6],7,[6,7,[4,5]]]
 
 const understandable_array = another_array.flat(Infinity)
 console.log(understandable_array);
+console.log(Array.isArray("manaswi"))  //asking id this array
+console.log(Array.from("manaswi"))  //connversion to  array  
+
+//need to specify keys array or values array should be formed as we are not giving info its giving an empty arrays
+console.log(Array.from({name:"manu"}))  //interesting case
+
+
+let score1 =100
+let score2= 200
+let score3= 300
+
+//return new array from set of elements
+console.log(Array.of(score1,score2,score3));
+
